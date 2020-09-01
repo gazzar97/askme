@@ -188,6 +188,8 @@ iframe {
   position: relative;
   background-color: #fff;
   border: 1px solid #e6e6e6;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
 
 .wrap-input100.rs1 {
