@@ -2,7 +2,9 @@
     padding: 30px 15px;
     margin-top: 40px;
     background: #fcfcfc;
-    border: 1px solid #f0f0f0; }
+    border: 1px solid #f0f0f0; 
+    border-radius: 5px;;
+}
     .single h3.side-title {
     margin: 0;
     margin-bottom: 10px;

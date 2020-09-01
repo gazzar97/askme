@@ -9,6 +9,8 @@ import { AboutusSectionComponent } from './components/home-page/aboutus-section/
 import {RouterModule} from '@angular/router';
 import { HomeParentComponent } from './components/home-page/home-parent/home-parent.component';
 import { QuestionComponent } from './components/home-page/question/question.component';
+import { LoginComponent } from './components/login/login.component';
+import { SignupComponent } from './components/signup/signup.component';
 
 
 @NgModule({
@@ -19,12 +21,16 @@ import { QuestionComponent } from './components/home-page/question/question.comp
     FriendsSectionComponent,
     AboutusSectionComponent,
     HomeParentComponent,
-    QuestionComponent
+    QuestionComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path:'', component:HomeParentComponent}
+      {path:'', component:HomeParentComponent},
+      {path:'login',component:LoginComponent},
+      {path:'signup',component:SignupComponent},
     ])
   ],
   providers: [],

@@ -4,6 +4,7 @@
     background: #fcfcfc;
     border: 1px solid #f0f0f0; 
     height: 180px;
+    border-radius: 5px;
 }
     .single h3.side-title {
     margin: 0;

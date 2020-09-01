@@ -1,7 +1,6 @@
 .wallPostZone{
     width: 60%;
-    height: 500px;
-    
+    height: auto;
     float: left;
 }
 .friends-aboutus-section{
@@ -18,6 +17,18 @@
 }
 .aboutusZone{
     width: 100%;
+    height: auto;
+    display: block;
+}
+
+.questionZone{
+    width:100%;
+    height: auto;
+    display: block;
+
+}
+.wall-post-zone{
+    width:100%;
     height: auto;
     display: block;
 }
