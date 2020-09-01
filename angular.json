@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "askme"
+    }
+  },
+  "defaultProject": "askme",
+  "cli": {
+    "analytics": "0644a2e7-3e80-4bfe-a067-0cfcb96d1535"
+  }
 }
