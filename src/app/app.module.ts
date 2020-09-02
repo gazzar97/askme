@@ -1,3 +1,4 @@
+import { HomeParentComponent } from './pages/home-parent/home-parent.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -7,7 +8,6 @@ import { WallPostComponent } from './components/home-page/wall-post/wall-post.co
 import { FriendsSectionComponent } from './components/home-page/friends-section/friends-section.component';
 import { AboutusSectionComponent } from './components/home-page/aboutus-section/aboutus-section.component';
 import {RouterModule} from '@angular/router';
-import { HomeParentComponent } from './components/home-page/home-parent/home-parent.component';
 import { QuestionComponent } from './components/home-page/question/question.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
