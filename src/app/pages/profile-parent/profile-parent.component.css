@@ -1,0 +1,10 @@
+.left-part-of-page{
+    width: 60%;
+    float: left;
+    height: auto;
+}
+.right-part-of-page{
+    width:40%;
+    float:right;
+    height: auto;
+}
