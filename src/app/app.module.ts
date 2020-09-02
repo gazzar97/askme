@@ -11,6 +11,10 @@ import {RouterModule} from '@angular/router';
 import { QuestionComponent } from './components/home-page/question/question.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { ProfileParentComponent } from './pages/profile-parent/profile-parent.component';
+import { AboutmeComponent } from './components/profile-page/aboutme/aboutme.component';
+import { ProfileStatsComponent } from './components/profile-page/profile-stats/profile-stats.component';
+import { ProfileBoxHeaderComponent } from './components/profile-page/profile-box-header/profile-box-header.component';
 
 
 @NgModule({
@@ -23,7 +27,11 @@ import { SignupComponent } from './components/signup/signup.component';
     HomeParentComponent,
     QuestionComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    ProfileParentComponent,
+    AboutmeComponent,
+    ProfileStatsComponent,
+    ProfileBoxHeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -31,6 +39,7 @@ import { SignupComponent } from './components/signup/signup.component';
       {path:'', component:HomeParentComponent},
       {path:'login',component:LoginComponent},
       {path:'signup',component:SignupComponent},
+      {path:'profile',component:ProfileParentComponent},
     ])
   ],
   providers: [],
